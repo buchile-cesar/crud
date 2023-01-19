@@ -1,0 +1,5 @@
+{
+    "dsn": "mysql:host=localhost:3306;dbname=db_crud",
+    "user": "root",
+    "pwd": "%4092Ur7NKF$"
+}

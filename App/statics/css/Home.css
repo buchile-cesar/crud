@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body>div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15mm 0mm 15mm 0mm;
+}
+
+button{
+    min-width: 40mm;
+    min-height: 10mm;
+    padding: 1mm 2mm 1mm 2mm;
+    border-radius: 2mm;
+    cursor: pointer;
+    border: 1px solid black;
+    text-decoration: none;
+    margin: 5mm 0 0 0;
+}
+
+a{
+    text-decoration: none;
+}

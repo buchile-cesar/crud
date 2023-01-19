@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input[type="text"],
+select{
+    width: 80mm;
+    padding: 2mm 2mm 2mm 2mm;
+    margin: 0mm 10mm 0mm 10mm;
+    border-radius: 2.5mm;
+    border: 1px solid black;
+}
+
+label{
+    display: block;
+    margin: 5mm 10mm 2.5mm 10mm;
+}
+
+div[buttons]{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80mm;
+    margin: 10mm 10mm 10mm 10mm;
+}
+
+div[buttons] button{
+    min-width: 20mm;
+    min-height: 5mm;
+    padding: 1mm 2mm 1mm 2mm;
+    border-radius: 2mm;
+    cursor: pointer;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+div[buttons] button:nth-child(1){
+    margin: 0 2mm 0 0;
+}
+
+fieldset{
+    margin: 15mm 0 15mm 0;
+    border-radius: 5mm;
+}

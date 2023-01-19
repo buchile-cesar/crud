@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+table{
+    margin: 15mm 0 0 0;
+    white-space: nowrap;
+}
+
+table>thead tr:nth-child(1){
+    text-align: right;
+}
+
+table>thead tr:nth-child(1) th{
+    padding: 0 0 5mm;
+
+}
+
+table td[message]{
+    text-align: center;
+    padding: 2mm 0 2mm 0;
+}
+
+table td{
+    padding: 5px;
+}
+
+table td{
+    text-align: center;
+}
+
+table td[left]{
+    text-align: left;
+}
+
+table>thead tr:nth-child(2) th{
+    text-align: center;
+    padding: 2mm 2mm 2mm 2mm;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+}
+
+button{
+    padding: 1mm 2mm 1mm 2mm;
+    border-radius: 2mm;
+    cursor: pointer;
+    border: 1px solid black;
+}
