@@ -112,7 +112,7 @@ Para baixar esse sistema, basta dar o comando `git clone https://github.com/buch
 * A parte de _UX_ não foi o foco desse projeto e sim a sua funcionalidade. Desse modo, não houve grandes preocupações com a aparência do sistema.
 * O sistema carece de uma validação dos dados inseridos via formulário, funcionalidade que deve ser implementada em modo de produção.
 * Recomenda-se utilizar um _CAPTCHA_ nos formulários caso seja utilizado em modo de produção.
-* Para uma melhor segurança dos dados, principalmente devido à Lei LGPD, um módulo de autenticação de usuário deve ser implementado e apenas usuários autenticados terem acesso aos módulos _fornecedor_ e _produto_.
+* Para uma melhor segurança dos dados, principalmente devido à LGPD, um módulo de autenticação de usuário deve ser implementado e apenas usuários autenticados terem acesso aos módulos _fornecedor_ e _produto_.
 
 ## Autores
 | [<img src="https://avatars.githubusercontent.com/u/94256512?v=4" width=115><br><sub>César Buchile</sub>](https://github.com/buchile-cesar) |  
